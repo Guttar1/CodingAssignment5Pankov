@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4efe9;
+  color: #222;
+  margin: 20px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.wrapper > div {
+  flex: 1 1 45%;
+}
+h1 {
+  color: #3a3a3a;
+}
+h2 {
+  color: #555;
+}
+h3 {
+  color: #444;
+}
+ul, ol {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 6px;
+}
+figure {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  width: fit-content;
+}
+.rate {
+  color: #2c6e49;
+}
+fieldset {
+  width: 250px;
+  border: 2px solid #999;
+  padding: 10px;
+  background-color: #ffffff;
+}
+legend {
+  font-weight: bold;
+}
+.footer {
+  text-align: right;
+  font-size: 0.9em;
+  color: #555;
+}
