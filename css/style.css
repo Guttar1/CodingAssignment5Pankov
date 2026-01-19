@@ -4,3 +4,6 @@
 .container {width: 100%; margin: 0 auto;}
 .row::after {content: ""; display: block; clear: both;}
 .col {float: left; padding: 15px; /* border: 2px solid red; */ min-height: 80px;}
+.col {margin-bottom: 20px;}
+h1, h2, h3 {margin-top: 0;}
+img {max-width: 100%; height: auto; display: block;}
